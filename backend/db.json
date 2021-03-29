@@ -1,0 +1,24 @@
+{
+  "phrase": [
+    {
+      "id": 1,
+      "phraseEN": "What is your name? ",
+      "phrasePT": "Qual é o seu nome?"
+    },
+    {
+      "id": 2,
+      "phraseEN": "How are you? ",
+      "phrasePT": "Como você está?"
+    },
+    {
+      "id": 3,
+      "phraseEN": "I am from Brazil",
+      "phrasePT": "Eu sou do Brasil"
+    },
+    {
+      "id": 4,
+      "phraseEN": "I am a student",
+      "phrasePT": "Eu sou um estudante"
+    }
+  ]
+}
