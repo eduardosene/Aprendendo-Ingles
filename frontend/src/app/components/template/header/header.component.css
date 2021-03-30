@@ -1,0 +1,9 @@
+.header {
+  background-color: #43b0f7;
+  display: flex;
+  justify-content: center;
+}
+.header a {
+  color: #fff;
+  font-size: 2rem;
+}

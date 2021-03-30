@@ -1,0 +1,11 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.footer i {
+  color: #43b0f7;
+  margin-left: 0.5rem;
+}
