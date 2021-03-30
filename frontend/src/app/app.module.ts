@@ -11,6 +11,8 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { ContentComponent } from './components/template/content/content.component';
 import { PanelComponent } from './components/panel/panel.component';
 import { ProgressbarComponent } from './components/panel/progressbar/progressbar.component';
+import { AttemptsComponent } from './components/panel/attempts/attempts.component';
+import { ContentPanelComponent } from './components/panel/content-panel/content-panel.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { ProgressbarComponent } from './components/panel/progressbar/progressbar
     ContentComponent,
     PanelComponent,
     ProgressbarComponent,
+    AttemptsComponent,
+    ContentPanelComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ProgressbarModule],
   providers: [],

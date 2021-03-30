@@ -1,2 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+
+@font-face {
+  font-family: "DIN Round Pro";
+  src: local("DIN Round Pro Medium"), local("DIN-Round-Pro-Medium"),
+    url("assets/font/DINRoundPro-Medi.woff2") format("woff2"),
+    url("assets/font/DINRoundPro-Medi.woff") format("woff"),
+    url("assets/font/DINRoundPro-Medi.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "DIN Round Pro", "arial", sans-serif;
+}
