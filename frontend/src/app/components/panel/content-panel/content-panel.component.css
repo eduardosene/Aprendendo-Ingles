@@ -1,0 +1,24 @@
+.content-panel {
+  margin-top: 1rem;
+}
+.content-panel h3 {
+  margin-bottom: 1rem;
+}
+.content-panel p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+.content-panel .input-group {
+  height: 8rem;
+}
+
+.btn-panel {
+  margin-top: 2rem;
+}
+.btn-panel .btn-check {
+  display: flex;
+  justify-content: flex-end;
+}

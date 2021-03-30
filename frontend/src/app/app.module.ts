@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 //ngx-bootstrap
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 
@@ -24,6 +24,7 @@ import { ContentPanelComponent } from './components/panel/content-panel/content-
     ProgressbarComponent,
     AttemptsComponent,
     ContentPanelComponent,
+    HttpClientModule,
   ],
   imports: [BrowserModule, AppRoutingModule, ProgressbarModule],
   providers: [],
