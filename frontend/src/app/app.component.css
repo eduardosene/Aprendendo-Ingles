@@ -1,0 +1,17 @@
+.jumbotron {
+  margin-top: 2rem;
+}
+
+.endGameTemplate {
+  display: flex;
+  justify-content: center;
+}
+
+.endGameTemplate h2 {
+  margin-bottom: 3rem;
+}
+
+.endGameTemplate button {
+  display: flex;
+  margin: auto;
+}

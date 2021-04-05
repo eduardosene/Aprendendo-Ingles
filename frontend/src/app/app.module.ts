@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+
 //ngx-bootstrap
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 
@@ -14,6 +15,7 @@ import { PanelComponent } from './components/panel/panel.component';
 import { ProgressbarComponent } from './components/panel/progressbar/progressbar.component';
 import { AttemptsComponent } from './components/panel/attempts/attempts.component';
 import { ContentPanelComponent } from './components/panel/content-panel/content-panel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,7 @@ import { ContentPanelComponent } from './components/panel/content-panel/content-
     ProgressbarModule,
     HttpClientModule,
     FormsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,15 +1,19 @@
-<div class="jumbotron">
+<div>
   <div class="row topoPanel">
     <div class="col-sm-6">
       <app-progressbar [valueProgress]="valueProgress"> </app-progressbar>
     </div>
     <div class="col-sm-6">
-      <app-attempts> </app-attempts>
+      <app-attempts [attempts]="attempts"> </app-attempts>
     </div>
   </div>
   <div class="row">
     <div class="col-sm">
-      <app-content-panel (valueProgress)="currentProgress($event)">
+      <app-content-panel
+        (valueProgress)="currentProgress($event)"
+        (attempts)="currentAttempts($event)"
+        (endGame)="statusEndGame($event)"
+      >
       </app-content-panel>
     </div>
   </div>

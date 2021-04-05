@@ -1,3 +1,39 @@
 <app-header> </app-header>
-<app-content> </app-content>
+<div class="container jumbotron">
+  <app-panel
+    *ngIf="valueEndGame; else endGameTemplate"
+    (endGame)="checkEndGame($event)"
+  >
+  </app-panel>
+</div>
+
+<ng-template #endGameTemplate>
+  <div
+    class="endGameTemplate"
+    *ngIf="typeEndGame == 'defeat'; else endGameTemplateWin"
+  >
+    <div class="row">
+      <div class="col">
+        <h2>Fim de Jogo, você perdeu!</h2>
+        <button class="btn btn-primary" (click)="rebootGame()">
+          Jogar Novamente
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #endGameTemplateWin>
+  <div class="endGameTemplate">
+    <div class="row">
+      <div class="col">
+        <h2>Fim de Jogo, você Ganhou!</h2>
+        <button class="btn btn-primary" (click)="rebootGame()">
+          Jogar Novamente
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
 <app-footer> </app-footer>

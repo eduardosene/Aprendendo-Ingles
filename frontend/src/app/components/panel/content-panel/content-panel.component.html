@@ -1,7 +1,15 @@
 <div class="row content-panel">
   <div class="col-sm-12">
     <h3>Escreva em português:</h3>
-    <p>{{ phrase.phraseEN }}</p>
+
+    <p
+      ngbPopover="{{ phrase.phrasePT }}"
+      triggers="mouseenter:mouseleave"
+      placement="bottom"
+    >
+      {{ phrase.phraseEN }}
+    </p>
+
     <div class="input-group">
       <textarea
         class="form-control"
